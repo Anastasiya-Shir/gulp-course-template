@@ -1,0 +1,39 @@
+.free {
+  padding-top: 80px;
+  padding-bottom: 69px;
+  background: $darkGrey;
+  h1 {
+    font-family: $primaryFontBold;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+    span {
+      font-family: $primaryFontRegular;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 37px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: 0.02em;
+
+      color: #ffffff;
+    }
+  }
+  p {
+    font-family: $primaryFontRegular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

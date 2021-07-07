@@ -1,5 +1,5 @@
 .carousel {
-  margin-top: 126px;
+  padding-top: 126px;
   &-item {
     &__content {
       @include flex-row;
@@ -40,7 +40,7 @@
       line-height: 51px;
       letter-spacing: 0.02em;
       text-transform: uppercase;
-      color: #D84033;
+      color: #d84033;
       font-family: $primaryFontBold;
       position: absolute;
       top: 83px;
