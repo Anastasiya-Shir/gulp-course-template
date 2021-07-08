@@ -1,11 +1,15 @@
-@import './fonts.scss';
-@import './constants.scss';
-@import './mixins.scss';
-@import './carousel.scss';
-@import './button.scss';
-@import './collections.scss';
-@import './catalog.scss';
-@import './navbar.scss';
+@import "./fonts.scss";
+@import "./constants.scss";
+@import "./mixins.scss";
+@import "./carousel.scss";
+@import "./free-delivery.scss";
+@import "./button.scss";
+@import "./collections.scss";
+@import "./catalog.scss";
+@import "./navbar.scss";
+@import "./models.scss";
+@import "./model.scss";
+@import "./subscribe.scss";
 
 .container {
   width: 75%;
@@ -13,5 +17,5 @@
 }
 
 .home-section {
-  background-color: #F9F6F1;
+  background-color: #f9f6f1;
 }
