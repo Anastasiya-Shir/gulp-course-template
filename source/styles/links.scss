@@ -1,0 +1,58 @@
+.links {
+  background: $darkGrey;
+  color: $white;
+  padding: 73px 0 78px;
+  .container {
+    @include flex-row;
+  }
+  &__info {
+    flex: 2;
+  }
+  &__descr {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 32px;
+    font-family: $primaryFontRegular;
+    width: 50%;
+  }
+  &__navigation {
+    flex: 3;
+    @include flex-row;
+    justify-content: space-between;
+    &-list {
+      &-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        font-family: $primaryFontBold;
+      }
+      ul {
+        padding-left: 0;
+        margin-top: 20px;
+        list-style-type: none;
+        li {
+          text-transform: uppercase;
+          font-family: $primaryFontRegular;
+
+          font-size: 14px;
+          line-height: 22px;
+          margin: 5px 0;
+          &.vk-link::before {
+            content: url(../img/vk.png);
+            margin-right: 5px;
+          }
+          &.fb-link::before {
+            content: url(../img/fs.png);
+            margin-right: 5px;
+          }
+          &.insta-link::before {
+            content: url(../img/inst.png);
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
